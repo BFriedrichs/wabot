@@ -1,0 +1,44 @@
+{
+  "name": "wabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "electron --inspect=9090 src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BFriedrichs/wabot.git"
+  },
+  "keywords": [
+    "docker"
+  ],
+  "author": "Björn Friedrichs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BFriedrichs/wabot/issues"
+  },
+  "files": [
+    "src/app/hooks"
+  ],
+  "homepage": "https://github.com/BFriedrichs/wabot#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-react": "^7.0.0-beta.42",
+    "@babel/preset-stage-0": "^7.0.0-beta.42",
+    "babel-loader": "^8.0.0-beta.2",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "electron-reload": "^1.2.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "css-loader": "^0.28.11"
+  },
+  "dependencies": {
+    "electron": "^1.8.4",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-hot-loader": "^4.0.0"
+  }
+}
